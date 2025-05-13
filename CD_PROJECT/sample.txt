@@ -1,0 +1,45 @@
+
+(1)
+
+let counter: int = 0;
+let flag: bool = false;
+while (counter < 3) {
+    counter = counter + 1;
+    if (counter == 2) {
+        flag = true;
+    } else {
+        print(counter);
+    }
+}
+print(flag);
+
+
+(2)
+
+let x: int = 10;
+let y: bool = true;
+let z: int = x + 5;
+x = 20;
+print(z);
+print(y);
+print(x * 2);
+print(z == 15);
+
+(3)
+
+let x: int = 5;
+let y: int = 10;
+
+if (x < y) {
+    print(x);
+}
+
+let z: int = 0;
+while (z < 3) {
+    print(z);
+    z = z + 1;
+}
+
+for i in 4 {
+    print(i);
+}
